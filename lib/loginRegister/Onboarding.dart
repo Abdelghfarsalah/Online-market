@@ -16,17 +16,17 @@ class Onboarding extends StatefulWidget {
 class _OnboardingState extends State<Onboarding> {
   List<Onboardingmodel> boarding = [
     Onboardingmodel(
-        body: 'On Board 1 Body',
+        body: 'Providing the best international and local products',
         image: 'assets/images/image_processing20200630-15633-1235wem.jpg',
-        title: 'On Board 1 Title'),
+        title: ''),
     Onboardingmodel(
-        body: 'On Board 2 Body',
+        body: 'Complete comfort in payment methods',
         image: 'assets/images/Internet-Shopping-Illustration.jpg',
-        title: 'On Board 2 Title'),
+        title: ''),
     Onboardingmodel(
-        body: 'On Board 3 Body',
+        body: 'Register as soon as possible to benefit from all services',
         image: 'assets/images/online-shopping-vector-illustration1.webp',
-        title: 'On Board 3 Title'),
+        title: ''),
   ];
   bool islast = false;
   var controller = PageController();
